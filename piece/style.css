@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: DFkai-sb, sans-serifi;
+  font-family: DFkai-sb, sans-serif;
 }
 
 h1,
@@ -122,18 +122,53 @@ div.japan {
   flex-wrap: wrap;
   padding: 1rem;
 }
-
 div.japan img {
   flex: 1 1 300px;
-  max-width: 60vh;
+  max-width: 40vh;
 }
-
-div.japan.info {
+div.japan .info {
   flex: 3 1 600px;
   padding: 2rem;
 }
 
+div.competition {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
 div.competition div.text h3 {
   font-size: 2rem;
   color: greenyellow;
+}
+div.competition div.text {
+  flex: 5 1 300px;
+  padding: 1rem;
+}
+div.competition #piechart {
+  flex: 1 1 300px;
+}
+
+.china h3 {
+  color: rgb(12, 122, 92);
+  font-size: 2rem;
+}
+.china thead th {
+  background-color: rgb(86, 224, 192);
+  color: white;
+  text-align: center;
+}
+.china table,
+.china th,
+.china td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  padding: 2px 4px;
+}
+
+.taiwan h3 {
+  color: rgb(12, 122, 92);
+  font-size: 2rem;
+}
+.taiwan ul {
+  margin-left: 2rem;
 }/*# sourceMappingURL=style.css.map */
