@@ -18,11 +18,9 @@ header div.top {
   padding: 1rem;
   background-image: url(./images/background.png);
 }
-
 header div.top h1 {
   font-size: 2.5rem;
 }
-
 header div.top h3 {
   font-size: 1rem;
 }
@@ -171,4 +169,10 @@ div.competition #piechart {
 }
 .taiwan ul {
   margin-left: 2rem;
+}
+
+@media screen and (max-width: 600px) {
+  header nav ul {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=style.css.map */

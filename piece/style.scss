@@ -18,15 +18,15 @@ h6 {
 header div.top {
     padding: 1rem;
     background-image: url(./images/background.png);
+
     // background-position: bottom; //設定圖片起始位置
-}
+    h1 {
+        font-size: 2.5rem;
+    }
 
-header div.top h1 {
-    font-size: 2.5rem;
-}
-
-header div.top h3 {
-    font-size: 1rem;
+    h3 {
+        font-size: 1rem;
+    }
 }
 
 header nav {
@@ -194,5 +194,11 @@ div.competition {
 
     ul {
         margin-left: 2rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    header nav ul {
+        flex-direction: column;
     }
 }
